@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的自制网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/images/logo.png" alt="网站Logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-translate="home">首页</a></li>
+                <li><a href="#products" data-translate="products">产品</a></li>
+                <li><a href="#about" data-translate="about">关于我们</a></li>
+                <li><a href="#contact" class="contact-btn" data-translate="contact">联系我们</a></li>
+            </ul>
+            <button class="lang-switch" data-translate="lang">EN</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 data-translate="welcome">金华九通齿轮厂</h1>
+                <p data-translate="explore">探索我们的创新产品和服务</p>
+                <a href="#products" class="cta-button primary" data-translate="view-products">查看产品</a>
+                <a href="#contact" class="cta-button secondary" data-translate="contact-us">联系我们</a>
+            </div>
+        </section>
+
+        <section id="products" class="section-bg">
+            <h2 data-translate="our-products">我们的产品</h2>
+            <div class="scroll-container product-container">
+                <div class="product-item">
+                    <img src="./images/12JSD200T-1707106.jpg" alt="产品1">
+                    <div class="overlay">
+                        <h3>产品1</h3>
+                        <p>产品1的简短描述</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="./images/12JSD240T-1701110.jpg" alt="产品2">
+                    <div class="overlay">
+                        <h3>产品2</h3>
+                        <p>产品2的简短描述</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="./images/1701431-A8P.jpg" alt="产品3">
+                    <div class="overlay">
+                        <h3>产品3</h3>
+                        <p>产品3的简短描述</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="./images/12JSD200T-1707106.jpg" alt="产品4">
+                    <div class="overlay">
+                        <h3>产品4</h3>
+                        <p>产品4的简短描述</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-bg-light">
+            <h2 data-translate="about-us">关于我们</h2>
+            <div class="about-content">
+                <div class="company-intro">
+                    <h3 data-translate="company-intro">公司简介</h3>
+                    <p data-translate="company-desc">我们是一家专注于创新和质量的公司，致力于为客户提供最优质的产品和服务。</p>
+                </div>
+                <div class="team-intro">
+                    <h3 data-translate="our-team">我们的团队</h3>
+                    <p data-translate="team-desc">我们的团队由经验丰富的专业人士组成，每个成员都致力于为公司的成功做出贡献。</p>
+                </div>
+                <div class="timeline">
+                    <h3 data-translate="development-history">发展历程</h3>
+                    <ul>
+                        <li><strong>2010年</strong> - 公司成立</li>
+                        <li><strong>2015年</strong> - 获得行业领先认证</li>
+                        <li><strong>2020年</strong> - 扩展国际市场</li>
+                        <li><strong>2023年</strong> - 推出革新性产品线</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="site-gallery section-bg-light">
+            <h2 data-translate="site-showcase">场地展示</h2>
+            <div class="scroll-container-wrapper">
+                <button class="scroll-btn prev-btn">&lt;</button>
+                <div class="scroll-container site-container">
+                    <div class="site-item">
+                        <img src="./images/场地 (1).jpg" alt="场地1" class="site-image">
+                        <div class="overlay">
+                            <h3>场地 1</h3>
+                            <p>这里是场地1的简短描述...</p>
+                        </div>
+                    </div>
+                    <div class="site-item">
+                        <img src="./images/场地 (2).jpg" alt="场地2" class="site-image">
+                        <div class="overlay">
+                            <h3>场地 2</h3>
+                            <p>这里是场地2的简短描述...</p>
+                        </div>
+                    </div>
+                    <div class="site-item">
+                        <img src="./images/场地 (3).jpg" alt="场地3" class="site-image">
+                        <div class="overlay">
+                            <h3>场地 3</h3>
+                            <p>这里是场地3的简短描述...</p>
+                        </div>
+                    </div>
+                    <div class="site-item">
+                        <img src="./images/场地 (4).jpg" alt="场地4" class="site-image">
+                        <div class="overlay">
+                            <h3>场地 4</h3>
+                            <p>这里是场地4的简短描述...</p>
+                        </div>
+                    </div>
+                    <div class="site-item">
+                        <img src="./images/场地.jpg" alt="场地" class="site-image">
+                        <div class="overlay">
+                            <h3>主要场地</h3>
+                            <p>这里是主要场地的简短描述...</p>
+                        </div>
+                    </div>
+                    <div class="site-item">
+                        <img src="./images/场地仓库.jpg" alt="场地仓库" class="site-image">
+                        <div class="overlay">
+                            <h3>场地仓库</h3>
+                            <p>这里是场地仓库的简短描述...</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="scroll-btn next-btn">&gt;</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>导航</h3>
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#products">产品</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>联系方式</h3>
+                <p>邮箱：info@example.com</p>
+                <p>电话：123-456-7890</p>
+            </div>
+            <div class="footer-column">
+                <h3>关注我们</h3>
+                <!-- 社交媒体图标 -->
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 我的自制网站. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
